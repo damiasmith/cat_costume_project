@@ -1,8 +1,11 @@
-body {
+/* On devices wider than 660px */
+
+body{
   margin: 0;
+  width: 100%;
 }
 
-html {
+html{
     font-size: 62.5%;
   }
 
@@ -10,19 +13,56 @@ nav{
   background-color: white;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  padding: 1rem 2rem;
-  font-size: 2rem;
+  align-items: center;
+
+}
+
+nav-links{
+  display: none;
+}
+
+h2{
+font-family: "PT Sans Narrow";
+font-size: 2rem;
+padding: .5rem 2rem;
+text-align: center;
+}
+
+.background-container{
+  position: relative;
+  height: 50rem;
+  width: 50rem;
+  background-size: cover;
+  background-position: center;
 }
 
 .background{
+    position: absolute;
+    z-index: -1;
+  }
+
+.background-text{
+  position: relative;
+  z-index: 1;
   color: white;
-  font-size: 3rem;
 }
 
-/* On devices wider than 660px */
-@media(min-width: 660px) {
+.cat-image{
+  position: relative;
+  align: center;
+  z-index: 2;
 }
+
+.purr{
+
+}
+
+
+@media(min-width: 660px) {
+
+}
+
+
 
 /* On devices wider than 940px */
 @media(min-width: 940px) {
