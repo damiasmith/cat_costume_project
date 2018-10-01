@@ -2,7 +2,7 @@
 
 body{
   margin: 0;
-  width: 100%;
+  width: 50rem;
 }
 
 html{
@@ -17,14 +17,21 @@ nav{
 
 }
 
-nav-links{
+.nav-links{
   display: none;
+}
+
+.title{
+  font-family: "PT Sans Narrow";
+  font-size: 3rem;
+  margin: 1rem 1rem;
+  text-align: center;
 }
 
 h2{
 font-family: "PT Sans Narrow";
-font-size: 2rem;
-padding: .5rem 2rem;
+font-size: 4rem;
+margin: 1rem 1rem;
 text-align: center;
 }
 
@@ -32,28 +39,47 @@ text-align: center;
   position: relative;
   height: 50rem;
   width: 50rem;
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
+  overflow: hidden;
+
 }
 
-.background{
+.background-container img{
     position: absolute;
     z-index: -1;
+    height: 50rem;
+    width: auto;
+
   }
 
 .background-text{
+  align-items: center;
   position: relative;
   z-index: 1;
   color: white;
+  text-transform: uppercase;
+
 }
 
 .cat-image{
   position: relative;
   align: center;
   z-index: 2;
+  height: 48rem;
+  width: auto;
+  left: 20rem;
+  top: 1rem;
+
 }
 
 .purr{
+
+}
+
+p{
+  font-family: "PT Serif";
+  font-size: 2.5rem;
+  margin: 4rem;
 
 }
 
