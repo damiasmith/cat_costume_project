@@ -1,6 +1,8 @@
 
 body{
   margin: 0;
+  padding: 0;
+
 }
 
 html{
@@ -10,7 +12,7 @@ html{
 nav{
   background-color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -21,7 +23,7 @@ nav{
 .title{
   font-family: "PT Sans Narrow";
   font-size: 3rem;
-  margin: 1rem 1rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -29,70 +31,70 @@ h2{
 font-family: "PT Sans Narrow";
 font-size: 4rem;
 margin: 1rem 1rem;
-padding-top: 2rem;
 text-align: center;
 }
 
 
 .background-container{
-  position: relative;
+  background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-mobile-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   height: 50rem;
   width: 50rem;
+  z-index: -1;
   object-fit: cover;
   overflow: hidden;
   display: block;
-    margin: 0 auto;
+  margin: auto;
+  text-align: center;
+
 }
 
-.background-container img{
-    position: absolute;
-    z-index: -1;
-    height: 500px;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-
-  }
 
 .background-text{
   text-align: center;
-  position: relative;
-  z-index: 0;
+  position: absolute;
   color: white;
+  z-index: 1;
   text-transform: uppercase;
-  top: 10rem;
+  top: 8rem;
 
 }
 
 .cat-image{
   display: block;
-  position: relative;
-  align: center;
-  z-index: 1;
-  height: 50rem;
+  text-align: center;
+  z-index: 2;
+  height: 45rem;
   width: auto;
-  left: 20rem;
-  top: 1rem;
+  right: 18rem;
+  down;
+
 
 }
 
 .purr{
 display: block;
-font-size: 5rem;
+font-size: 3rem;
 text-align: center;
+}
+
+.cattitude{
+  min-width: 50rem;
 }
 
 p{
   font-family: "PT Serif";
-  font-size: 2.5rem;
+  font-size: 25px;
   color: #323232;
   padding: 4rem;
+  padding-top: 0;
   line-height: 5rem;
 }
 
 h3{
   font-family: "PT Sans Narrow";
-  font-size: 3rem;
+  font-size: 3.5rem;
   padding: 1rem;
   text-align: center;
   text-transform: uppercase;
@@ -106,10 +108,11 @@ h3{
 
 .about-container{
   background-color: #eeeeee;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  line-height: 5rem;
-  width: 500px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 3rem;
+  width: 50rem;
+
 }
 
 .information{
@@ -120,7 +123,6 @@ h3{
   font-family: "PT Serif bold";
   text-transform: uppercase;
   font-size: 2rem;
-
 
 }
 
@@ -139,9 +141,41 @@ color: #f26522;
   font-family: "PT Serif 700";
   font-size: 2rem;
   display: block;
-  left: 30rem;
+  left: 18rem;
   color: #f26522;
 }
+
+.map{
+  background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-map.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50rem;
+  width: 50rem;
+  object-fit: cover;
+  overflow: hidden;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-container{
+  width: 100rem;
+  background-color: #00897f;
+  text-align: center;
+  }
+
+.footer-text{
+  width: 50rem;
+  color: white;
+  background-color: #00897f;
+  font-family: "PT Sans Narrow";
+  font-size: 2rem ;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  text-align:center;
+  margin: 0;
+}
+
 
 
 @media(min-width: 660px) {
