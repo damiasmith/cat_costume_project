@@ -32,7 +32,8 @@ nav{
 h2{
 font-family: "PT Sans Narrow";
 font-size: 4rem;
-margin: 1rem 1rem;
+margin-top: 1rem
+margin-bottom: 0;
 text-align: center;
 }
 
@@ -43,12 +44,12 @@ text-align: center;
   background-position: center;
   height: 55rem;
   width: 50rem;
-
   object-fit: cover;
   overflow: hidden;
   display: block;
   margin: auto;
   text-align: center;
+  box-sizing: border-box;
 
 }
 
@@ -90,7 +91,6 @@ text-align: center;
   left: 8rem;
   top: -21rem;
 
-
 }
 
 .purr{
@@ -101,7 +101,13 @@ text-align: center;
 }
 
 .cattitude{
+  padding: 3rem 4rem 2rem 4rem;
   max-width: 66rem;
+  width: 100vpw;
+  line-height: 1.5rem;
+  box-sizing: border-box;
+  margin: 0;
+
 
 }
 
@@ -109,18 +115,19 @@ p{
   font-family: "PT Serif";
   font-size: 25px;
   color: #323232;
-  padding: 4rem;
   padding-top: 0;
+  padding-bottom: 0;
   line-height: 5rem;
 }
 
 h3{
   font-family: "PT Sans Narrow";
   font-size: 3.5rem;
-  padding: 1rem;
+  padding: 1rem 4rem 0rem 4rem;
   text-align: center;
   text-transform: uppercase;
   color: #00897f;
+  
 
 }
 
@@ -130,41 +137,69 @@ h3{
 
 .about-container{
   background-color: #eeeeee;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 4rem 2rem 4rem;
+  display: block;
   line-height: 3rem;
   width: 50rem;
+  box-sizing: border-box;
+  margin: auto;
+
+}
+
+.cat-conatiner{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cat-image{
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  padding: 5rem;
+  display:block;
+  margin: auto;
 
 }
 
 .information{
-  padding-left: 4rem;
+  line-height: 5rem;
 }
 
 .first{
-  font-family: "PT Serif bold";
+  font-family: "PT Serif";
+  font-weight: bold;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  padding: 1rem;
 
 }
 
 .second{
-font-family: "PT Serif 400";
-font-size: 2rem;
+font-family: "PT Serif";
+font-size: 2.5rem;
+padding: 1rem;
 }
 
 .address{
-font-family: "PT Serif 700";
-font-size: 2rem;
+font-family: "PT Serif";
+font-size: 2.5rem;
+font-weight: bold;
 color: #f26522;
-
+padding: 1rem;
 }
+
 .address-2{
-  font-family: "PT Serif 700";
-  font-size: 2rem;
+  font-family: "PT Serif";
+  font-size: 2.5rem;
+  font-weight: bold;
   display: block;
-  left: 18rem;
   color: #f26522;
+  padding-top: 0;
+  padding-bottom: 5rem;
+  margin-left: 15rem;
+  line-height: 1rem;
 }
 
 .map{
@@ -181,13 +216,14 @@ color: #f26522;
 }
 
 .footer-container{
-  width: 100rem;
+  width: 50rem;
   background-color: #00897f;
   text-align: center;
+  margin: 0;
   }
 
 .footer-text{
-  width: 100vpw
+  width: 100vpw;
   min-width: 50rem;
   max-width: 66rem;
   color: white;
@@ -195,9 +231,9 @@ color: #f26522;
   font-family: "PT Sans Narrow";
   font-size: 3rem ;
   padding-top: 3rem;
-  padding-bottom: 8rem;
+  padding-bottom: 7rem;
   text-align: center;
-  margin: 0;
+
 }
 
 
