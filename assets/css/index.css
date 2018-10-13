@@ -49,7 +49,7 @@ padding-right: 0;
   background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-mobile-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  height: 55rem;
+  height: 53rem;
   width: 50rem;
   object-fit: cover;
   overflow: hidden;
@@ -88,15 +88,15 @@ padding-right: 0;
   align-self: flex-end;
 }
 
-.hero-cat{
-  display: block;
+.hero-image{
+  background: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-mobile.png") no-repeat center;
+  height: 700px;
   position: relative;
-  text-align: center;
   z-index: 2;
-  height: 52rem;
-  width: auto;
-  left: 8rem;
-  top: -20rem;
+  background-size: 35rem auto;
+  top: -29.5rem;
+  left: 2rem;
+
 
 }
 
@@ -119,7 +119,7 @@ text-align: center;
 
 }
 
-.contact{
+.contact-heading{
   display: none;
 }
 
@@ -130,7 +130,7 @@ text-align: center;
   line-height: 3rem;
   width: 50rem;
   box-sizing: border-box;
-  margin: auto;
+  margin: 0 auto;
 
 }
 
@@ -248,6 +248,45 @@ padding: 1rem;
 
 @media(min-width: 660px) {
 
+  nav{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    margin: auto;
+    width: 94rem;
+  }
+
+  .nav-links{
+    display: inline;
+  }
+
+  .background-container{
+      background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-desktop-bg.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 55rem;
+      width: 94rem;
+      object-fit: cover;
+      overflow: hidden;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      box-sizing: border-box;
+
+    }
+
+    .hero-cat-container{
+      display: block;
+      position: relative;
+      text-align: center;
+      z-index: 2;
+      height: 52rem;
+      width: auto;
+      left: 8rem;
+      top: -20rem;
+    }
 }
 
 
