@@ -7,6 +7,7 @@ body{
 
 html{
     font-size: 62.5%;
+    box-sizing: border-box;
 
   }
 
@@ -119,7 +120,7 @@ text-align: center;
 
   .about{
   background-color: #eeeeee;
-  padding: 1rem 4rem 2rem 4rem;
+  padding: 1rem 4rem 1rem 4rem;
   display: block;
   line-height: 3rem;
   width: 50rem;
@@ -134,7 +135,7 @@ p{
   color: #323232;
   padding-top: 0;
   padding-bottom: 0;
-  line-height: 4.5rem;
+  line-height: 5rem;
 }
 
 h3{
@@ -147,13 +148,6 @@ h3{
   color: #00897f;
 }
 
-.cat-conatiner{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
 
 .cat-image{
   display: none;
@@ -170,16 +164,20 @@ h3{
   padding: 5rem;
   display:block;
   margin: auto;
-
 }
 
-.contact{
-  padding: 0 4rem 0 4rem;
-  margin: 2rem;
+
+.touch{
+  background-color: #eeeeee;
+  width: 50rem;
+  box-sizing: border-box;
+  padding-top: 2rem;
 }
+
 
 .information{
   line-height: 5rem;
+  padding-left: 3rem;
 }
 
 .first{
@@ -214,7 +212,7 @@ padding: 1rem;
   padding-top: 0;
   padding-bottom: 5rem;
   margin-left: 15rem;
-  line-height: 1rem;
+  line-height: 3rem;
 }
 
 .map{
@@ -258,11 +256,19 @@ padding: 1rem;
 
   nav{
     width: 94rem;
-    padding: 2rem;
+    max-width: 94rem;
+    min-width: 66rem;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
-    display: inline;
+    box-sizing: border-box;
+    padding: 0 2rem;
+  }
+
+  .title{
+    padding-right: 2rem;
+    margin-right: auto;
   }
 
   .nav-links{
@@ -270,14 +276,17 @@ padding: 1rem;
     font-family: "PT Sans Narrow";
     font-size: 1.5rem;
     text-transform: uppercase;
-    padding: 2rem;
+    
 
   }
 
   .link-button{
     color: #323232;
+    display: inline;
+    padding: 2rem 2rem;
 
   }
+
     a:link { text-decoration: none }
               {color: #eeeeee; }
     a:visited { text-decoration: none }
@@ -285,9 +294,6 @@ padding: 1rem;
     a:active { text-decoration: none }
     {color: #eeeeee; }
 
-    .title{
-      text-align: left;
-    }
 
   .background-container{
       background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-desktop-bg.jpg") no-repeat center;
@@ -339,6 +345,9 @@ padding: 1rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 94rem;
+        min-width: 66rem;
+        max-width: 94rem;
 
     }
     .about{
@@ -350,41 +359,52 @@ padding: 1rem;
       height: 40rem;
       border-radius: 50%;
       padding: 5rem;
-      display:block;
+      display: block;
       margin: auto;
     }
 
-      .cat-image2{
-        width: 40rem;
-        height: 40rem;
-        border-radius: 50%;
-        padding: 5rem;
-        display:block;
-        margin: auto;
-      }
+    .cat-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8rem;
+      width: 94rem;
+      min-width: 66rem;
+      max-width: 94rem;
+      box-sizing: border-box;
+
+    }
+
       .cat-image{
         width: 30rem;
         height: 30rem;
-        padding: 4rem 0 2rem 0;
+        padding: 2rem 0 2rem 0;
+        display: inline;
       }
 
       .cat-image2{
         width: 30rem;
         height: 30rem;
+        border-radius: 50%;
         padding: 2rem 0 2rem 0;
+        display: none;
       }
         .cat-image3{
           width: 30rem;
           height: 30rem;
           border-radius: 50%;
-          padding: 2rem 0 4rem 0;
-          display:block;
+          padding: 2rem 0 2rem 0;
+          display: inline;
           margin: auto;
         }
 
     .touch{
       background-color: #eeeeee;
       padding: 4rem 0 6rem 0;
+      width: 94rem;
+      min-width: 66rem;
+      max-width: 94rem;
     }
 
       .contact-heading{
@@ -396,13 +416,16 @@ padding: 1rem;
 
       .contact{
         background-color: white;
-        padding-bottom: 2rem;
+          padding: 0 4rem 2rem 4rem;
+          margin: 2rem;
+          box-sizing: border-box;
       }
 
       .map{
         width: 94rem;
         min-width: 66rem;
         max-width: 94rem;
+
 
       }
 
