@@ -276,23 +276,26 @@ padding: 1rem;
     font-family: "PT Sans Narrow";
     font-size: 1.5rem;
     text-transform: uppercase;
-    
+
 
   }
 
-  .link-button{
+  .about-link{
     color: #323232;
-    display: inline;
     padding: 2rem 2rem;
 
   }
+  .contact-link{
+    color: #323232;
+    padding: 2rem 2rem;
+  }
 
-    a:link { text-decoration: none }
-              {color: #eeeeee; }
-    a:visited { text-decoration: none }
-    {color: #eeeeee; }
-    a:active { text-decoration: none }
-    {color: #eeeeee; }
+    a:link {text-decoration: none}
+              {color: #eeeeee;}
+    a:visited {text-decoration: none}
+              {color: #eeeeee;}
+    a:active {text-decoration: none}
+              {color: #eeeeee;}
 
 
   .background-container{
@@ -401,7 +404,7 @@ padding: 1rem;
 
     .touch{
       background-color: #eeeeee;
-      padding: 4rem 0 6rem 0;
+      padding: 4rem 0rem 6rem 0rem;
       width: 94rem;
       min-width: 66rem;
       max-width: 94rem;
@@ -410,7 +413,7 @@ padding: 1rem;
       .contact-heading{
         display: block;
         margin: 0 auto;
-        padding: 2rem 4rem 2rem 4rem;
+        padding: 2rem 0 2rem 0;
 
       }
 
