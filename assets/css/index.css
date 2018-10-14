@@ -2,13 +2,10 @@
 body{
   margin: 0;
   padding: 0;
-
 }
 
 html{
     font-size: 62.5%;
-    box-sizing: border-box;
-
   }
 
 nav{
@@ -106,7 +103,6 @@ text-align: center;
   padding: 3rem 4rem 2rem 4rem;
   width: 50rem;
   max-width: 66rem;
-  width: 100vpw;
   line-height: 5rem;
   box-sizing: border-box;
   display: block;
@@ -210,9 +206,9 @@ padding: 1rem;
   display: block;
   color: #f26522;
   padding-top: 0;
-  padding-bottom: 5rem;
+  padding-bottom: 3.5rem;
   margin-left: 15rem;
-  line-height: 3rem;
+  line-height: 2rem;
 }
 
 .map{
@@ -341,7 +337,6 @@ padding: 1rem;
         display: block;
         margin: auto;
 
-
       }
       .about-container{
         display: flex;
@@ -351,20 +346,13 @@ padding: 1rem;
         width: 94rem;
         min-width: 66rem;
         max-width: 94rem;
+        margin: auto;
 
     }
     .about{
       margin: 2rem 0 2rem 0;
     }
 
-    .cat-image{
-      width: 40rem;
-      height: 40rem;
-      border-radius: 50%;
-      padding: 5rem;
-      display: block;
-      margin: auto;
-    }
 
     .cat-container{
       display: flex;
@@ -376,14 +364,17 @@ padding: 1rem;
       min-width: 66rem;
       max-width: 94rem;
       box-sizing: border-box;
+      margin: auto;
 
     }
 
       .cat-image{
         width: 30rem;
         height: 30rem;
+        border-radius: 50%;
         padding: 2rem 0 2rem 0;
         display: inline;
+        margin: auto;
       }
 
       .cat-image2{
@@ -393,6 +384,7 @@ padding: 1rem;
         padding: 2rem 0 2rem 0;
         display: none;
       }
+
         .cat-image3{
           width: 30rem;
           height: 30rem;
@@ -408,6 +400,7 @@ padding: 1rem;
       width: 94rem;
       min-width: 66rem;
       max-width: 94rem;
+      margin: auto;
     }
 
       .contact-heading{
@@ -447,4 +440,99 @@ padding: 1rem;
 
 /* On devices wider than 940px */
 @media(min-width: 940px) {
+
+  nav{
+    width: 132rem;
+    max-width: 132rem;
+    min-width: 94rem;
+    box-sizing: border-box;
+  }
+
+    header{
+      height: 52rem;
+      width: 132rem;
+
+      }.background-container{
+      background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-desktop-bg.jpg") no-repeat center;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      box-sizing: border-box;
+      margin: 0 auto;
+    }
+
+      .text-1{
+        padding-left: 33rem;
+      }
+
+      .text-2{
+        padding-right: 30rem;
+      }
+    }
+
+    .cattitude{
+      padding: 3rem 20rem 2rem 20rem;
+      width: 132rem;
+      min-width: 94rem;
+      max-width: 132rem;
+    }
+
+    .about-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 132rem;
+      min-width: 94rem;
+      max-width: 132rem;
+      box-sizing: border-box;
+      margin: auto;
+    }
+
+    .about{
+      margin: 2rem;
+    }
+
+    .cat-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 6rem;
+      width: 132rem;
+      min-width: 94rem;
+      max-width: 132rem;
+      box-sizing: border-box;
+      margin: auto;
+    }
+
+    .cat-image2{
+      width: 30rem;
+      height: 30rem;
+      border-radius: 50%;
+      padding: 2rem 0 2rem 0;
+      display: inline;
+    }
+
+    .touch{
+      background-color: #eeeeee;
+      padding: 4rem 0rem 6rem 0rem;
+      width: 132rem;
+      min-width: 94rem;
+      max-width: 132rem;
+      margin: auto;
+    }
+
+      .map{
+        width: 132rem;
+        min-width: 94rem;
+        max-width: 132rem;
+      }
+
+      .footer-text{
+        width: 132rem;
+        min-width: 94rem;
+        max-width: 132rem;
+      }
+
 }
