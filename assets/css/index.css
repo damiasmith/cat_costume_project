@@ -5,8 +5,8 @@ body{
 }
 
 html{
-    font-size: 62.5%;
-  }
+  font-size: 62.5%;
+}
 
 nav{
   background-color: white;
@@ -22,20 +22,17 @@ nav{
   font-family: "PT Sans Narrow";
   font-size: 3rem;
   font-weight: bold;
-  padding: 2rem;
   text-align: center;
-
+  padding: 2rem;
 }
 
 h2{
-font-family: "PT Sans Narrow";
-font-size: 4rem;
-margin: auto;
-margin-top: 3rem;
-margin-bottom: 0;
-text-align: center;
-padding-left: 0;
-padding-right: 0;
+  font-family: "PT Sans Narrow";
+  font-size: 4rem;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 
@@ -43,7 +40,6 @@ padding-right: 0;
   background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-mobile-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   height: 53rem;
   width: 50rem;
   object-fit: cover;
@@ -51,9 +47,7 @@ padding-right: 0;
   display: block;
   margin: 0 auto;
   box-sizing: border-box;
-
 }
-
 
 .background-text{
   display: flex;
@@ -63,14 +57,12 @@ padding-right: 0;
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 5rem;
-  text-align: center;
   position: relative;
   color: white;
   z-index: 1;
   text-transform: uppercase;
   top: 6rem;
   padding: 4rem;
-
 }
 
 .text-1{
@@ -83,10 +75,10 @@ padding-right: 0;
 }
 
 .purr{
-display: block;
-font-size: 6.5rem;
-font-style: italic;
-text-align: center;
+  display: block;
+  font-size: 6.5rem;
+  font-style: italic;
+  text-align: center;
 }
 
 .hero-image{
@@ -103,18 +95,18 @@ text-align: center;
   padding: 3rem 4rem 2rem 4rem;
   width: 50rem;
   max-width: 66rem;
+  min-width: 50rem;
   line-height: 5rem;
   box-sizing: border-box;
   display: block;
   margin: auto;
-
 }
 
 .contact-heading{
   display: none;
 }
 
-  .about{
+.about{
   background-color: #eeeeee;
   padding: 1rem 4rem 1rem 4rem;
   display: block;
@@ -122,15 +114,12 @@ text-align: center;
   width: 50rem;
   box-sizing: border-box;
   margin: 0 auto;
-
 }
 
 p{
   font-family: "PT Serif";
   font-size: 25px;
   color: #323232;
-  padding-top: 0;
-  padding-bottom: 0;
   line-height: 5rem;
 }
 
@@ -143,7 +132,6 @@ h3{
   text-transform: uppercase;
   color: #00897f;
 }
-
 
 .cat-image{
   display: none;
@@ -162,14 +150,14 @@ h3{
   margin: auto;
 }
 
-
 .touch{
   background-color: #eeeeee;
   width: 50rem;
   box-sizing: border-box;
   padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin: auto;
 }
-
 
 .information{
   line-height: 5rem;
@@ -182,7 +170,6 @@ h3{
   text-transform: uppercase;
   font-size: 2.5rem;
   padding: 1rem;
-
 }
 
 .second{
@@ -221,14 +208,12 @@ padding: 1rem;
   overflow: hidden;
   display: block;
   margin: auto;
-
 }
 
 .footer-container{
   text-align: center;
   display: block;
   margin: auto;
-
   }
 
 .footer-text{
@@ -243,7 +228,6 @@ padding: 1rem;
   text-align: center;
   display: block;
   margin: auto;
-
 }
 
 
@@ -272,15 +256,13 @@ padding: 1rem;
     font-family: "PT Sans Narrow";
     font-size: 1.5rem;
     text-transform: uppercase;
-
-
   }
 
   .about-link{
     color: #323232;
     padding: 2rem 2rem;
-
   }
+
   .contact-link{
     color: #323232;
     padding: 2rem 2rem;
@@ -294,18 +276,19 @@ padding: 1rem;
               {color: #eeeeee;}
 
 
-  .background-container{
-      background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-desktop-bg.jpg") no-repeat center;
+    .background-container{
+      background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-desktop-bg.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
       height: 53rem;
       width: 94rem;
-
     }
 
     .hero-image{
       background: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-desktop.png") no-repeat center;
-      height: 700px;
-      background-size: 35rem auto;
-      top: -34.5rem;
+      height: 53rem;
+      top: -28rem;
       left: 2rem;
     }
 
@@ -324,35 +307,34 @@ padding: 1rem;
     }
 
     .purr{
-    font-size: 10rem;
+      font-size: 10rem;
     }
 
-      .cattitude{
-        padding: 3rem 8rem 2rem 8rem;
-        width: 94rem;
-        min-width: 66rem;
-        max-width: 94rem;
-        line-height: 5rem;
-        box-sizing: border-box;
-        display: block;
-        margin: auto;
-
+    .cattitude{
+      padding: 3rem 8rem 2rem 8rem;
+      width: 94rem;
+      min-width: 66rem;
+      max-width: 94rem;
+      line-height: 5rem;
+      box-sizing: border-box;
+      display: block;
+      margin: auto;
       }
-      .about-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 94rem;
-        min-width: 66rem;
-        max-width: 94rem;
-        margin: auto;
 
+    .about-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 94rem;
+      min-width: 66rem;
+      max-width: 94rem;
+      margin: auto;
     }
+
     .about{
       margin: 2rem 0 2rem 0;
     }
-
 
     .cat-container{
       display: flex;
@@ -365,7 +347,6 @@ padding: 1rem;
       max-width: 94rem;
       box-sizing: border-box;
       margin: auto;
-
     }
 
       .cat-image{
@@ -385,14 +366,14 @@ padding: 1rem;
         display: none;
       }
 
-        .cat-image3{
-          width: 30rem;
-          height: 30rem;
-          border-radius: 50%;
-          padding: 2rem 0 2rem 0;
-          display: inline;
-          margin: auto;
-        }
+      .cat-image3{
+        width: 30rem;
+        height: 30rem;
+        border-radius: 50%;
+        padding: 2rem 0 2rem 0;
+        display: inline;
+        margin: auto;
+      }
 
     .touch{
       background-color: #eeeeee;
@@ -403,38 +384,31 @@ padding: 1rem;
       margin: auto;
     }
 
-      .contact-heading{
-        display: block;
-        margin: 0 auto;
-        padding: 2rem 0 2rem 0;
+    .contact-heading{
+      display: block;
+      margin: 0 auto;
+      padding: 2rem 0 2rem 0;
+    }
 
-      }
+    .contact{
+      background-color: white;
+      padding: 0 4rem 2rem 4rem;
+      margin: 2rem;
+      box-sizing: border-box;
+    }
 
-      .contact{
-        background-color: white;
-          padding: 0 4rem 2rem 4rem;
-          margin: 2rem;
-          box-sizing: border-box;
-      }
+    .map{
+      width: 94rem;
+      min-width: 66rem;
+      max-width: 94rem;
+    }
 
-      .map{
-        width: 94rem;
-        min-width: 66rem;
-        max-width: 94rem;
-
-
-      }
-
-      .footer-text{
-          width: 94rem;
-          min-width: 66rem;
-          max-width: 94rem;
-
-
-        }
-
-
-}
+    .footer-text{
+      width: 94rem;
+      min-width: 66rem;
+      max-width: 94rem;
+    }
+  }
 
 
 
@@ -445,18 +419,15 @@ padding: 1rem;
     width: 132rem;
     max-width: 132rem;
     min-width: 94rem;
-    box-sizing: border-box;
   }
 
-    header{
-      height: 52rem;
-      width: 132rem;
-
-      }.background-container{
-      background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-desktop-bg.jpg") no-repeat center;
-      width: 100%;
+      .background-container{
+      background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-desktop-bg.jpg");
       background-position: center;
+      background-repeat: no-repeat;
       background-size: cover;
+      height: 53rem;
+      width: 132rem;
       box-sizing: border-box;
       margin: 0 auto;
     }
@@ -468,7 +439,6 @@ padding: 1rem;
       .text-2{
         padding-right: 30rem;
       }
-    }
 
     .cattitude{
       padding: 3rem 20rem 2rem 20rem;
@@ -534,5 +504,4 @@ padding: 1rem;
         min-width: 94rem;
         max-width: 132rem;
       }
-
 }
