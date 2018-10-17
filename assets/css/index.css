@@ -42,7 +42,7 @@ h2{
   background-repeat: no-repeat;
   height: 53rem;
   width: 50rem;
-  object-fit: cover;
+  background-size: cover;
   overflow: hidden;
   display: block;
   margin: 0 auto;
@@ -83,7 +83,7 @@ h2{
 
 .hero-image{
   background: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-mobile.png") no-repeat center;
-  height: 700px;
+  height: 70rem;
   position: relative;
   z-index: 2;
   background-size: 35rem auto;
@@ -92,7 +92,7 @@ h2{
 }
 
 .cattitude{
-  padding: 3rem 4rem 2rem 4rem;
+  padding: 3rem 4rem 4rem 4rem;
   width: 50rem;
   max-width: 66rem;
   min-width: 50rem;
@@ -108,7 +108,7 @@ h2{
 
 .about{
   background-color: #eeeeee;
-  padding: 1rem 4rem 1rem 4rem;
+  padding: 2rem 4rem;
   display: block;
   line-height: 3rem;
   width: 50rem;
@@ -121,16 +121,29 @@ p{
   font-size: 25px;
   color: #323232;
   line-height: 5rem;
+  margin-bottom: 0;
 }
 
 h3{
   font-family: "PT Sans Narrow";
   font-size: 3.5rem;
-  padding: 2rem 0rem 0rem 0rem;
+  padding: 2rem 3rem 0rem 0rem;
   line-height: 0rem;
   text-align: center;
   text-transform: uppercase;
   color: #00897f;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+#kat{
+  padding-top: 5rem;
+}
+
+.mavis{
+  background-color: #eeeeee;
+  padding-bottom: 3rem;
+  box-sizing: border-box;
 }
 
 .cat-image{
@@ -142,11 +155,11 @@ h3{
 }
 
 .cat-image3{
-  width: 40rem;
-  height: 40rem;
+  width: 35rem;
+  height: 35rem;
   border-radius: 50%;
-  padding: 5rem;
-  display:block;
+  padding: 7rem;
+  display: block;
   margin: auto;
 }
 
@@ -154,14 +167,16 @@ h3{
   background-color: #eeeeee;
   width: 50rem;
   box-sizing: border-box;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
   margin: auto;
+}
+.contact{
+  padding: 2rem 4rem;
 }
 
 .information{
   line-height: 5rem;
-  padding-left: 3rem;
 }
 
 .first{
@@ -173,17 +188,17 @@ h3{
 }
 
 .second{
-font-family: "PT Serif";
-font-size: 2.5rem;
-padding: 1rem;
+  font-family: "PT Serif";
+  font-size: 2.5rem;
+  padding: 1rem;
 }
 
 .address{
-font-family: "PT Serif";
-font-size: 2.5rem;
-font-weight: bold;
-color: #f26522;
-padding: 1rem;
+  font-family: "PT Serif";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f26522;
+  padding: 1rem;
 }
 
 .address-2{
@@ -204,7 +219,7 @@ padding: 1rem;
   background-repeat: no-repeat;
   height: 45rem;
   width: 50rem;
-  object-fit: cover;
+  background-size: cover;
   overflow: hidden;
   display: block;
   margin: auto;
@@ -311,14 +326,11 @@ padding: 1rem;
     }
 
     .cattitude{
-      padding: 3rem 8rem 2rem 8rem;
+      padding: 3rem 8rem;
       width: 94rem;
       min-width: 66rem;
       max-width: 94rem;
       line-height: 5rem;
-      box-sizing: border-box;
-      display: block;
-      margin: auto;
       }
 
     .about-container{
@@ -329,11 +341,23 @@ padding: 1rem;
       width: 94rem;
       min-width: 66rem;
       max-width: 94rem;
+      box-sizing: border-box;
       margin: auto;
     }
 
     .about{
-      margin: 2rem 0 2rem 0;
+      margin: 3rem;
+      box-sizing: border-box;
+      padding: 4rem;
+      margin-bottom: 0;
+    }
+
+    #kat{
+      padding-top: 2rem;
+    }
+
+    .mavis{
+      padding-bottom: 0;
     }
 
     .cat-container{
@@ -358,14 +382,6 @@ padding: 1rem;
         margin: auto;
       }
 
-      .cat-image2{
-        width: 30rem;
-        height: 30rem;
-        border-radius: 50%;
-        padding: 2rem 0 2rem 0;
-        display: none;
-      }
-
       .cat-image3{
         width: 30rem;
         height: 30rem;
@@ -376,12 +392,10 @@ padding: 1rem;
       }
 
     .touch{
-      background-color: #eeeeee;
       padding: 4rem 0rem 6rem 0rem;
       width: 94rem;
       min-width: 66rem;
       max-width: 94rem;
-      margin: auto;
     }
 
     .contact-heading{
@@ -391,9 +405,9 @@ padding: 1rem;
     }
 
     .contact{
+      padding: 4rem;
       background-color: white;
-      padding: 0 4rem 2rem 4rem;
-      margin: 2rem;
+      margin: 3rem;
       box-sizing: border-box;
     }
 
@@ -421,16 +435,11 @@ padding: 1rem;
     min-width: 94rem;
   }
 
-      .background-container{
-      background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-desktop-bg.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+  .background-container{
       height: 53rem;
       width: 132rem;
-      box-sizing: border-box;
-      margin: 0 auto;
-    }
+
+  }
 
       .text-1{
         padding-left: 33rem;
@@ -441,39 +450,24 @@ padding: 1rem;
       }
 
     .cattitude{
-      padding: 3rem 20rem 2rem 20rem;
+      padding: 3rem 20rem 3rem 20rem;
       width: 132rem;
       min-width: 94rem;
       max-width: 132rem;
     }
 
     .about-container{
-      display: flex;
       flex-direction: row;
-      justify-content: center;
-      align-items: center;
       width: 132rem;
       min-width: 94rem;
       max-width: 132rem;
-      box-sizing: border-box;
-      margin: auto;
-    }
-
-    .about{
-      margin: 2rem;
     }
 
     .cat-container{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
       padding: 6rem;
       width: 132rem;
       min-width: 94rem;
       max-width: 132rem;
-      box-sizing: border-box;
-      margin: auto;
     }
 
     .cat-image2{
@@ -485,12 +479,9 @@ padding: 1rem;
     }
 
     .touch{
-      background-color: #eeeeee;
-      padding: 4rem 0rem 6rem 0rem;
       width: 132rem;
       min-width: 94rem;
       max-width: 132rem;
-      margin: auto;
     }
 
       .map{
