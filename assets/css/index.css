@@ -11,7 +11,9 @@ html{
 nav{
   background-color: white;
   margin: auto;
-  width: 50rem;
+  width: 100%;
+  max-width: 66rem;
+  min-width: 35rem;
 }
 
 .nav-links{
@@ -28,7 +30,7 @@ nav{
 
 h2{
   font-family: "PT Sans Narrow";
-  font-size: 4rem;
+  font-size: 3rem;
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 0;
@@ -37,15 +39,17 @@ h2{
 
 
 .background-container{
-  background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-mobile-bg.jpg");
+  background-image: url("../images/kats-hero-mobile-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  height: 53rem;
-  width: 50rem;
+  height: 45rem;
+  width: 100%;
+  max-width: 66rem;
+  min-width: 35rem;
   background-size: cover;
   overflow: hidden;
   display: block;
-  margin: 0 auto;
+  margin: auto;
   box-sizing: border-box;
 }
 
@@ -54,15 +58,16 @@ h2{
   flex-direction: column;
   align-items: center;
   font-family: "PT Sans Narrow";
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
-  line-height: 5rem;
+  line-height: 4rem;
   position: relative;
   color: white;
   z-index: 1;
   text-transform: uppercase;
   top: 6rem;
-  padding: 4rem;
+  padding: 2rem;
+  margin: auto;
 }
 
 .text-1{
@@ -76,27 +81,28 @@ h2{
 
 .purr{
   display: block;
-  font-size: 6.5rem;
+  font-size: 5.25rem;
   font-style: italic;
   text-align: center;
 }
 
 .hero-image{
-  background: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-mobile.png") no-repeat center;
-  height: 70rem;
+  background: url("../images/kats-hero-mobile.png") no-repeat center;
+  height: 50rem;
+  box-sizing: border-box;
   position: relative;
   z-index: 2;
-  background-size: 35rem auto;
-  top: -29.5rem;
-  left: 2rem;
+  background-size: 30rem auto;
+  top: -16.5rem;
+  left: 1rem;
 }
 
 .cattitude{
-  padding: 3rem 4rem 4rem 4rem;
-  width: 50rem;
+  padding: 3rem 3rem 4rem 3rem;
+  width: 100%;
   max-width: 66rem;
-  min-width: 50rem;
-  line-height: 5rem;
+  min-width: 35rem;
+  line-height: 4rem;
   box-sizing: border-box;
   display: block;
   margin: auto;
@@ -108,25 +114,23 @@ h2{
 
 .about{
   background-color: #eeeeee;
-  padding: 2rem 4rem;
+  padding: 2rem 3rem;
   display: block;
   line-height: 3rem;
-  width: 50rem;
-  box-sizing: border-box;
-  margin: 0 auto;
+  margin: auto;
 }
 
 p{
   font-family: "PT Serif";
-  font-size: 25px;
+  font-size: 22px;
   color: #323232;
-  line-height: 5rem;
+  line-height: 4rem;
   margin-bottom: 0;
 }
 
 h3{
   font-family: "PT Sans Narrow";
-  font-size: 3.5rem;
+  font-size: 3rem;
   padding: 2rem 3rem 0rem 0rem;
   line-height: 0rem;
   text-align: center;
@@ -155,47 +159,49 @@ h3{
 }
 
 .cat-image3{
-  width: 35rem;
-  height: 35rem;
+  width: 30rem;
+  height: 30rem;
   border-radius: 50%;
-  padding: 7rem;
+  padding: 5rem 2.5rem;
   display: block;
   margin: auto;
 }
 
 .touch{
   background-color: #eeeeee;
-  width: 50rem;
+  width: 100%;
+  max-width: 66rem;
+  min-width: 35rem;
   box-sizing: border-box;
   padding-top: 3rem;
   padding-bottom: 1rem;
-  margin: auto;
+  margin: 0 auto;
 }
 .contact{
-  padding: 2rem 4rem;
+  padding: 2rem 2rem;
 }
 
 .information{
-  line-height: 5rem;
+  line-height: 4rem;
 }
 
 .first{
   font-family: "PT Serif";
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 1rem;
 }
 
 .second{
   font-family: "PT Serif";
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 1rem;
 }
 
 .address{
   font-family: "PT Serif";
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   color: #f26522;
   padding: 1rem;
@@ -203,22 +209,24 @@ h3{
 
 .address-2{
   font-family: "PT Serif";
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   display: block;
   color: #f26522;
   padding-top: 0;
-  padding-bottom: 3.5rem;
-  margin-left: 15rem;
+  padding-bottom: 2.5rem;
+  margin-left: 13rem;
   line-height: 2rem;
 }
 
 .map{
-  background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-map.jpg");
+  background-image: url("../images/kats-map.jpg");
   background-position: center;
   background-repeat: no-repeat;
   height: 45rem;
-  width: 50rem;
+  width: 100%;
+  max-width: 66rem;
+  min-width: 35rem;
   background-size: cover;
   overflow: hidden;
   display: block;
@@ -226,18 +234,20 @@ h3{
 }
 
 .footer-container{
+  width: 100%;
+  max-width: 66rem;
+  min-width: 40rem;
+  box-sizing: border-box;
   text-align: center;
   display: block;
   margin: auto;
   }
 
 .footer-text{
-  min-width: 50rem;
-  max-width: 66rem;
   color: white;
   background-color: #00897f;
   font-family: "PT Sans Narrow";
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-top: 3rem;
   padding-bottom: 7rem;
   text-align: center;
@@ -250,7 +260,7 @@ h3{
 @media(min-width: 660px) {
 
   nav{
-    width: 94rem;
+    width: 100%;
     max-width: 94rem;
     min-width: 66rem;
     display: flex;
@@ -292,42 +302,43 @@ h3{
 
 
     .background-container{
-      background-image: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-desktop-bg.jpg");
+      background-image: url("../images/kats-hero-desktop-bg.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       height: 53rem;
-      width: 94rem;
+      max-width: 94rem;
+      min-width: 66rem;
     }
 
     .hero-image{
-      background: url("/Users/Damia/desktop/launchcode/cat_costume_project/assets/images/kats-hero-desktop.png") no-repeat center;
+      background: url("../images/kats-hero-desktop.png") no-repeat center;
       height: 53rem;
-      top: -28rem;
+      top: -23rem;
       left: 2rem;
     }
 
     .background-text{
-      font-size: 4rem;
+      font-size: 3rem;
       line-height: 7rem;
       top: 8rem;
     }
 
     .text-1{
-      padding-left: 14rem;
+      padding-left: 4rem;
     }
 
     .text-2{
-      padding-right: 10rem;
+      padding-right: 3rem;
     }
 
     .purr{
-      font-size: 10rem;
+      font-size: 9rem;
     }
 
     .cattitude{
       padding: 3rem 8rem;
-      width: 94rem;
+      width: 66rem;
       min-width: 66rem;
       max-width: 94rem;
       line-height: 5rem;
@@ -338,11 +349,12 @@ h3{
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 94rem;
+      width: 66rem;
       min-width: 66rem;
       max-width: 94rem;
       box-sizing: border-box;
       margin: auto;
+      padding: 4rem 0rem 4rem 0rem;
     }
 
     .about{
@@ -365,8 +377,8 @@ h3{
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      padding: 8rem;
-      width: 94rem;
+      padding: 4rem;
+      width: 100%;
       min-width: 66rem;
       max-width: 94rem;
       box-sizing: border-box;
@@ -374,8 +386,8 @@ h3{
     }
 
       .cat-image{
-        width: 30rem;
-        height: 30rem;
+        width: 28rem;
+        height: 28rem;
         border-radius: 50%;
         padding: 2rem 0 2rem 0;
         display: inline;
@@ -383,8 +395,8 @@ h3{
       }
 
       .cat-image3{
-        width: 30rem;
-        height: 30rem;
+        width: 28rem;
+        height: 28rem;
         border-radius: 50%;
         padding: 2rem 0 2rem 0;
         display: inline;
@@ -393,7 +405,7 @@ h3{
 
     .touch{
       padding: 4rem 0rem 6rem 0rem;
-      width: 94rem;
+      width: 100%;
       min-width: 66rem;
       max-width: 94rem;
     }
@@ -401,24 +413,24 @@ h3{
     .contact-heading{
       display: block;
       margin: 0 auto;
-      padding: 2rem 0 2rem 0;
+      padding: 1rem 0 0 0;
     }
 
     .contact{
       padding: 4rem;
       background-color: white;
-      margin: 3rem;
+      margin: 2rem;
       box-sizing: border-box;
     }
 
     .map{
-      width: 94rem;
+      width: 100%;
       min-width: 66rem;
       max-width: 94rem;
     }
 
     .footer-text{
-      width: 94rem;
+      width: 100%;
       min-width: 66rem;
       max-width: 94rem;
     }
@@ -430,68 +442,74 @@ h3{
 @media(min-width: 940px) {
 
   nav{
-    width: 132rem;
+    width: 100%;
     max-width: 132rem;
     min-width: 94rem;
+    box-sizing: border-box;
+    margin: auto;
   }
 
   .background-container{
       height: 53rem;
-      width: 132rem;
-
+      width: 100%;
+      max-width: 132rem;
+      min-width: 94rem;
+      box-sizing: border-box;
+      margin: auto;
   }
 
       .text-1{
-        padding-left: 33rem;
+        padding-left: 20rem;
       }
 
       .text-2{
-        padding-right: 30rem;
+        padding-right: 16rem;
       }
 
     .cattitude{
       padding: 3rem 20rem 3rem 20rem;
-      width: 132rem;
+      width: 100%;
       min-width: 94rem;
       max-width: 132rem;
     }
 
     .about-container{
       flex-direction: row;
-      width: 132rem;
+      width: 100%;
       min-width: 94rem;
       max-width: 132rem;
     }
 
     .cat-container{
-      padding: 6rem;
-      width: 132rem;
+      padding: 3rem;
+      width: 100%;
       min-width: 94rem;
       max-width: 132rem;
     }
 
     .cat-image2{
-      width: 30rem;
-      height: 30rem;
+      width: 28rem;
+      height: 28rem;
       border-radius: 50%;
       padding: 2rem 0 2rem 0;
       display: inline;
+      margin: auto;
     }
 
     .touch{
-      width: 132rem;
+      width: 100%;
       min-width: 94rem;
       max-width: 132rem;
     }
 
       .map{
-        width: 132rem;
+        width: 100%;
         min-width: 94rem;
         max-width: 132rem;
       }
 
       .footer-text{
-        width: 132rem;
+        width: 100%;
         min-width: 94rem;
         max-width: 132rem;
       }
